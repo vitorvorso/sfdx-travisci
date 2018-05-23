@@ -4,7 +4,7 @@ private class mytest {
     @isTest
     static void myUnitTest() {
         myclass demo = new myclass();
-        System.assertEquals(demo.getAppVersion(), '3.0.0');
+        System.assertEquals(demo.getAppVersion(), '4.0.0');
         // Uncomment the following line to cause a build failure
         // System.assert(false);
     }
