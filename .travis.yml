@@ -27,4 +27,4 @@ script:
 - sfdx force:apex:test:run -u ciorg --wait 10
 - sfdx force:org:delete -u ciorg -p
 - sfdx force:source:convert -r force-app -d testDeploy
-- sfdx force:mdapi:deploy -d testDeploy/ -u deploy -w 2 
+- sfdx force:mdapi:deploy -d testDeploy/ -u vitor@msm2.com.br -w 2 
